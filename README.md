@@ -168,16 +168,10 @@ Resume/
 
 ## 📸 Screenshots
 
-### Registration Form
-*Modern form with gradient background and smooth animations*
-
-**Key Highlights:**
-- Clean, professional design
-- Intuitive user interface
-- Real-time validation feedback
-- Success state with formatted data
-
 ### Resume Website
+
+![Resume Website Homepage](resume-screenshot.png)
+
 *Premium dark theme with glassmorphism effects*
 
 **Key Highlights:**
@@ -185,6 +179,18 @@ Resume/
 - Interactive skill bars
 - Responsive across all devices
 - Premium visual aesthetics
+
+### Registration Form
+
+![Registration Form](registration-screenshot.png)
+
+*Modern form with gradient background and smooth animations*
+
+**Key Highlights:**
+- Clean, professional design
+- Intuitive user interface
+- Real-time validation feedback
+- Success state with formatted data
 
 ## 🎨 Design Philosophy
 
