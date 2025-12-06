@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Abhishek Kini - Bio-data and Personal Information">
+    <title>Bio-data - Abhishek Kini</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">Portfolio</span>
+                <span class="logo-dot">.</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="bio.html" class="active">Bio-data</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Bio Header -->
+    <section class="bio-header">
+        <div class="container">
+            <div class="bio-profile">
+                <div class="profile-image-wrapper">
+                    <div class="profile-image">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+                            <circle cx="40" cy="25" r="15" stroke="currentColor" stroke-width="3" />
+                            <path d="M15 65C15 53.954 23.954 45 35 45H45C56.046 45 65 53.954 65 65"
+                                stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <div class="profile-status"></div>
+                </div>
+                <div class="profile-info">
+                    <h1 class="profile-name">Abhishek Kini</h1>
+                    <p class="profile-tagline">Creative Developer & Designer</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/abhishek-kini-181669287/" class="social-link"
+                            aria-label="LinkedIn" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path
+                                    d="M17.04 17.043h-2.962v-4.64c0-1.107-.02-2.53-1.542-2.53-1.543 0-1.78 1.204-1.78 2.449v4.722H7.793V7.5h2.844v1.3h.04c.396-.75 1.364-1.54 2.808-1.54 3.003 0 3.556 1.977 3.556 4.547v5.236zM4.447 6.194c-.954 0-1.72-.776-1.72-1.73 0-.955.766-1.73 1.72-1.73.95 0 1.72.775 1.72 1.73 0 .954-.77 1.73-1.72 1.73zm1.48 10.85h-2.96V7.5h2.96v9.543zM18.522 0H1.476C.66 0 0 .645 0 1.44v17.12C0 19.355.66 20 1.476 20h17.042c.815 0 1.482-.645 1.482-1.44V1.44C20 .645 19.333 0 18.518 0h.003z" />
+                            </svg>
+                        </a>
+                        <a href="https://github.com/heynameisabhi" class="social-link" aria-label="GitHub"
+                            target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path
+                                    d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bio Content -->
+    <div class="bio-container">
+        <div class="container">
+            <div class="bio-grid">
+                <!-- Personal Information -->
+                <section class="bio-section">
+                    <h2 class="section-heading">
+                        <span class="heading-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                                <circle cx="12" cy="7" r="4" />
+                            </svg>
+                        </span>
+                        Personal Information
+                    </h2>
+                    <div class="info-grid">
+                        <div class="info-card">
+                            <label class="info-label">Full Name</label>
+                            <p class="info-value">Abhishek Kini</p>
+                        </div>
+                        <div class="info-card">
+                            <label class="info-label">Birth Year</label>
+                            <p class="info-value">2005</p>
+                        </div>
+                        <div class="info-card">
+                            <label class="info-label">Nationality</label>
+                            <p class="info-value">Indian</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Contact Details -->
+                <section class="bio-section">
+                    <h2 class="section-heading">
+                        <span class="heading-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                            </svg>
+                        </span>
+                        Contact Details
+                    </h2>
+                    <div class="info-grid">
+                        <div class="info-card">
+                            <label class="info-label">Email Address</label>
+                            <p class="info-value">abhishekkini.2005@gmail.com</p>
+                        </div>
+                        <div class="info-card">
+                            <label class="info-label">LinkedIn</label>
+                            <p class="info-value">linkedin.com/in/abhishek-kini-181669287</p>
+                        </div>
+                        <div class="info-card">
+                            <label class="info-label">GitHub</label>
+                            <p class="info-value">github.com/heynameisabhi</p>
+                        </div>
+                        <div class="info-card full-width">
+                            <label class="info-label">Location</label>
+                            <p class="info-value">India</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Academic Background -->
+                <section class="bio-section">
+                    <h2 class="section-heading">
+                        <span class="heading-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                                <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                            </svg>
+                        </span>
+                        Academic Background
+                    </h2>
+                    <div class="academic-timeline">
+                        <div class="academic-item">
+                            <div class="academic-level">Bachelor's Degree</div>
+                            <div class="academic-details">
+                                <h3>Bachelor of Science in Computer Science</h3>
+                                <p class="academic-institution">Engineering College</p>
+                                <div class="academic-meta">
+                                    <span>2023 - Present</span>
+                                    <span>•</span>
+                                    <span>Currently Pursuing</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="academic-item">
+                            <div class="academic-level">12th Grade</div>
+                            <div class="academic-details">
+                                <h3>Higher Secondary Education (Pre-University)</h3>
+                                <p class="academic-institution">Pre-University College</p>
+                                <div class="academic-meta">
+                                    <span>2021 - 2023</span>
+                                    <span>•</span>
+                                    <span>Completed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Skills & Expertise -->
+                <section class="bio-section">
+                    <h2 class="section-heading">
+                        <span class="heading-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M12 16v-4" />
+                                <path d="M12 8h.01" />
+                            </svg>
+                        </span>
+                        Skills & Expertise
+                    </h2>
+                    <div class="info-grid">
+                        <div class="info-card">
+                            <label class="info-label">Frontend Development</label>
+                            <p class="info-value">HTML5, CSS3, JavaScript, Progressive Web Apps</p>
+                        </div>
+                        <div class="info-card">
+                            <label class="info-label">Backend Development</label>
+                            <p class="info-value">Java, Spring Boot, C Programming</p>
+                        </div>
+                        <div class="info-card">
+                            <label class="info-label">Database Management</label>
+                            <p class="info-value">PostgreSQL, MySQL</p>
+                        </div>
+                        <div class="info-card">
+                            <label class="info-label">Mobile Development</label>
+                            <p class="info-value">Flutter</p>
+                        </div>
+                        <div class="info-card">
+                            <label class="info-label">UI/UX Design</label>
+                            <p class="info-value">Figma, Canva, Prototyping, Photogrammetry</p>
+                        </div>
+                        <div class="info-card">
+                            <label class="info-label">Tools & Others</label>
+                            <p class="info-value">Git, GitHub, Machine Learning Fundamentals</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Interests & Hobbies -->
+                <section class="bio-section">
+                    <h2 class="section-heading">
+                        <span class="heading-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" />
+                                <line x1="7" y1="7" x2="7.01" y2="7" />
+                            </svg>
+                        </span>
+                        Interests & Hobbies
+                    </h2>
+                    <div class="hobbies-grid">
+                        <div class="hobby-card">
+                            <div class="hobby-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="16 18 22 12 16 6" />
+                                    <polyline points="8 6 2 12 8 18" />
+                                </svg>
+                            </div>
+                            <h4>Web Development</h4>
+                            <p>Building web and mobile applications</p>
+                        </div>
+                        <div class="hobby-card">
+                            <div class="hobby-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+                                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+                                </svg>
+                            </div>
+                            <h4>UI/UX Design</h4>
+                            <p>Creating beautiful user interfaces in Figma</p>
+                        </div>
+                        <div class="hobby-card">
+                            <div class="hobby-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                                </svg>
+                            </div>
+                            <h4>Learning</h4>
+                            <p>Exploring new technologies and frameworks</p>
+                        </div>
+                        <div class="hobby-card">
+                            <div class="hobby-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                                    <circle cx="8.5" cy="7" r="4" />
+                                    <polyline points="17 11 19 13 23 9" />
+                                </svg>
+                            </div>
+                            <h4>Open Source</h4>
+                            <p>Contributing to community projects</p>
+                        </div>
+                        <div class="hobby-card">
+                            <div class="hobby-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+                                    <circle cx="12" cy="13" r="4" />
+                                </svg>
+                            </div>
+                            <h4>Photogrammetry</h4>
+                            <p>3D scanning and modeling</p>
+                        </div>
+                        <div class="hobby-card">
+                            <div class="hobby-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="7" width="20" height="15" rx="2" ry="2" />
+                                    <polyline points="17 2 12 7 7 2" />
+                                </svg>
+                            </div>
+                            <h4>Technology</h4>
+                            <p>Staying updated with tech trends</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!--  Additional Information -->
+                <section class="bio-section">
+                    <h2 class="section-heading">
+                        <span class="heading-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M12 16v-4" />
+                                <path d="M12 8h.01" />
+                            </svg>
+                        </span>
+                        Additional Information
+                    </h2>
+                    <div class="additional-info">
+                        <div class="info-block">
+                            <h4>Career Objectives</h4>
+                            <p>Passionate about creating beautiful and functional digital experiences. Seeking
+                                opportunities to leverage my expertise in web development, mobile app development, and
+                                UI/UX design to build innovative solutions that make a positive impact. Eager to
+                                contribute to open-source projects and share knowledge with the developer community.</p>
+                        </div>
+                        <div class="info-block">
+                            <h4>Strengths</h4>
+                            <ul class="strengths-list">
+                                <li>Strong problem-solving and creative thinking</li>
+                                <li>Quick learner with passion for new technologies</li>
+                                <li>Excellent design sense and attention to detail</li>
+                                <li>Good collaboration and communication skills</li>
+                            </ul>
+                        </div>
+                        <div class="info-block">
+                            <h4>Projects</h4>
+                            <p>Created multiple UI/UX designs using Figma including JanaTattva Library Management
+                                System, Simple Animal Rescue App, and IEEE Branch Communication Web UI. Always exploring
+                                and building new projects to enhance skills and contribute to the developer community.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">Portfolio</span>
+                    <span class="logo-dot">.</span>
+                </div>
+                <p class="footer-text">© 2025 Abhishek Kini. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="resume.html">Resume</a>
+                    <a href="bio.html">Bio-data</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
