@@ -112,7 +112,7 @@ A modern, multi-page portfolio website featuring resume and bio-data pages with 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/heynameisabhi/Web_Technology_Assignment.git
+   git clone https://github.com/Chirashree0810/Web_Technology_Assignment.git
    cd Web_Technology_Assignment
    ```
 
@@ -242,11 +242,13 @@ Both projects follow modern web design principles:
 
 ## 👨‍💻 Author
 
-**Abhishek Kini**
+**Chirashree**
 
-- GitHub: [@heynameisabhi](https://github.com/heynameisabhi)
-- LinkedIn: [abhishek-kini-181669287](https://linkedin.com/in/abhishek-kini-181669287)
-- Email: abhishekkini.2005@gmail.com
+- GitHub: [@Chirashree0810](https://github.com/Chirashree0810)
+- LinkedIn: [chirashree-chamaraj-816515292](https://linkedin.com/in/chirashree-chamaraj-816515292)
+- Email: chirashree1008@gmail.com
+- Phone: 6364100730
+- Address: 2/72 Kadoor Village, Tantrady, Mandarthi 576223
 
 ## 🙏 Acknowledgments
 
@@ -270,6 +272,6 @@ If you found these projects helpful, please consider giving this repository a st
 
 ---
 
-**Made with ❤️ and ☕ by Abhishek Kini**
+**Made with ❤️ and ☕ by Chirashree**
 
 *Last Updated: December 2025*

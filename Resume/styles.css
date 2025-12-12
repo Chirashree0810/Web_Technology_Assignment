@@ -2,8 +2,8 @@
    CSS Variables & Design Tokens
    =================================== */
 :root {
-    /* Colors - Modern Palette */
-    --primary-hue: 250;
+    /* Colors - Modern Orange/Amber Palette */
+    --primary-hue: 35;
     --primary-50: hsl(var(--primary-hue), 100%, 97%);
     --primary-100: hsl(var(--primary-hue), 95%, 90%);
     --primary-200: hsl(var(--primary-hue), 95%, 80%);
@@ -13,7 +13,7 @@
     --primary-600: hsl(var(--primary-hue), 75%, 45%);
     --primary-700: hsl(var(--primary-hue), 70%, 35%);
     
-    --accent-hue: 290;
+    --accent-hue: 25;
     --accent-400: hsl(var(--accent-hue), 80%, 60%);
     --accent-500: hsl(var(--accent-hue), 75%, 55%);
     
@@ -29,10 +29,10 @@
     --gray-800: #27272a;
     --gray-900: #18181b;
     
-    /* Dark Theme */
-    --bg-primary: #0a0a0f;
-    --bg-secondary: #131318;
-    --bg-tertiary: #1a1a22;
+    /* Dark Theme with Orange Accents */
+    --bg-primary: #0f0b0a;
+    --bg-secondary: #181513;
+    --bg-tertiary: #221e1a;
     --bg-card: rgba(255, 255, 255, 0.03);
     --bg-card-hover: rgba(255, 255, 255, 0.06);
     
